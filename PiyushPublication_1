@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <title>Zoography</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href ="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+ <a class="navbar-brand" href="index.html">Zoography</a>
+  <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+      <li class="nav-item">
+        <a class="nav-link" href="#Views">Most Viewed</a>
+      </li>
+        <a class="nav-link" href="Animal.html">Our Animals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Join Us</a>
+      </li>    
+  </ul>
+</nav>
+<div class="jumbotron text-center img-bg ">
+ <h1 class="m-5" >"Let's explore the beautiful animals together."</h1>
+ <a href="#" class="btn btn-dark">Explore </a>
+</div>
+  <br>
+<div class="container-fluid">
+ <div id="Views" class= "row m-3 text-white text-center">  
+      <div class="col-sm-4">
+        <div class="card bg-danger" >
+          <div class="card-body">
+            <img class="card-img-top rounded-circle" src="Tigerlogo.png">
+            <h3 class="card-title">Tiger</h3>
+            <p class="card-text">"Go at your own risk!"</p>
+            <a class="btn btn-primary" href="Tiger.html" role="button">"To the Forest."</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card bg-success" >
+          <div class="card-body">
+          <img class="card-img-top rounded-circle" src="Elephantlogo.png">
+          <h3 class="card-title">Elephant</h3>
+          <p class="card-text">"They don't harm humans mostly"</p>
+          <a class="btn btn-danger" href="Elephant.html" role="button">"To the Forest."</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card bg-primary">
+        <div class="card-body">
+          <img class=" card-img-top rounded-circle" src="Dolphinlogo.jpg">
+          <h3 class="card-title">Dolphin</h3>
+          <p class="card-text">"Take a Dive along."</p>
+          <button type="button" class="btn btn-success">"To the River."</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>  
+ <div id="contact" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 text-lg-right p-5">
+      <h1>About Us</h1>
+      <p class="lead">"Never miss an update of our new animals."
+      <input type="text" id="email" placeholder="Email" class="form-control m-1">
+      <a href="#" class="btn btn-dark m-1">Join Us! </a>
+    </div>
+    <div class="col-sm-6 text-center">
+      
+      <img src="concept-world-wildlife-day-environment-260nw-1068317006.webp" class="img-fluid" />
+     </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
